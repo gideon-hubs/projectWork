@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://abuTerrific:$HF_TOKEN@huggingface.co/spaces/abuTerrific/app-brandmonitoring main
+        run: git push https://abuTerrific:$HF_TOKEN@huggingface.co/spaces/abuTerrific/app-brandmonitoring main
